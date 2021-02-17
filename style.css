@@ -359,6 +359,11 @@ a:hover {
     font-size: 16px;
 }
 
+.nav > li:hover {
+    border-bottom: 2px solid salmon;
+    font-size: 18px;
+}
+
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
 }
@@ -1070,10 +1075,56 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+}
+
+@media (min-width:300px) {
+    .navbar.row {
+        margin-left: 50px;
+    }
+
+    div.col-sm-12 {
+        margin-left:75px;
+    }
+
+    .voffset-lg {
+        margin-left:85px;
+    }
+
+   .bloc-lg {
+    margin-left: 10px;
+   }
+
+   .texture-paper {
+    margin-left: 30px;
+   }
+
+   .b-parallax {
+    margin-left: 25px;
+   }
+
+   .l-bloc {
+    margin-left: 18px;
+   }
+
+   .portfolio-row {
+    margin-left: 10px;
+   }
+
+   div.col-sm-6 {
+    margin-bottom: 60px;
+   }
+
+
+    
+
+    .black-background {
+        margin-left: -90px;
     }
 }
