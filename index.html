@@ -18,6 +18,7 @@
 	<script src="./js/blocs.js"></script>
 	<script src="./js/jquery.touchSwipe.js" defer></script>
 	<script src="./js/gmaps.js"></script>
+	
 
     <title>La chouette agence Entreprise de webdesign à Lyon</title>
 
@@ -45,14 +46,12 @@
 						<a href="index.html">Nos services</a>
 					</li>
 					<li>
-						<a href="">Portefolio</a>
-					</li>
-					<li>
-						<a href="page2.html">Contact</a>
+						<a href="#bloc-7">Contact</a>
 					</li>
 				</ul>
 			</div>
 		</nav>
+	</div>
 </header>
 <!-- bloc-0 END -->
 
@@ -66,7 +65,7 @@
 					La chouette agence, du web design situé à Lyon
 				</h1>
 				<div class="text-center">
-					<a href="page2.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact</a>
+					<a href="#bloc-7" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact</a>
 				</div>
 			</div>
 		</div>
@@ -197,6 +196,8 @@
 	</div>
 </div>
 <!-- bloc-4-portfolio END -->
+
+<!-- bloc-5-cta -->
 <div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
 	<div class="container bloc-lg">
 		<div class="row">
@@ -212,51 +213,9 @@
 		</div>
 	</div>
 </div>
-<!-- bloc-5-cta -->
-
 <!-- bloc-5-cta END -->
-<div class="bloc bgc-white l-bloque" id="bloc-7">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
-					<div class="form-group">
-						<label>
-							Nom
-						</label>
-						<input id="name" class="form-control" required />
-					</div>
-					<div class="form-group">
-						<label>
-							Adresse email
-						</label>
-						<input id="email" class="form-control" type="email" required />
-					</div>
-					<div class="form-group">
-						<label>
-							Comment nous avez-vous connu ?
-						</label>
-						<input class="form-control" type="email" required id="input_504" />
-					</div>
-					<div class="form-group">
-						<label>
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
-					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
-						Envoyer
-					</button>
-				</form>
-			</div>
-			<div class="col-sm-6">
-				<p>
-					contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
-				</p>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- Footer - bloc-8 -->
+
+<!-- Footer - bloc-6 -->
 <footer>
   <div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 	<div class="container bloc-sm">
@@ -288,8 +247,50 @@
 					</div>
 					<div class="keywords" style="color:#F3976C;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
 				</div>
-			</footer>
-<!-- Footer - bloc-8 END -->
+
+				<div class="bloc bgc-white l-bloque" id="bloc-7">
+					<div class="container bloc-lg">
+						<div class="row">
+							<div class="col-sm-6">
+								<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+									<div class="form-group">
+										<label>
+											Nom
+										</label>
+										<input id="name" class="form-control" required />
+									</div>
+									<div class="form-group">
+										<label>
+											Adresse email
+										</label>
+										<input id="email" class="form-control" type="email" required />
+									</div>
+									<div class="form-group">
+										<label>
+											Comment nous avez-vous connu ?
+										</label>
+										<input class="form-control" type="email" required id="input_504" />
+									</div>
+									<div class="form-group">
+										<label>
+											Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
+										</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+									</div> 
+									<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+										Envoyer
+									</button>
+								</form>
+							</div>
+							<div class="col-sm-6">
+								<p>
+									contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>		
+<!-- Footer - bloc-6 END -->
 
 </div>
 <!-- Principal conteneur END -->
