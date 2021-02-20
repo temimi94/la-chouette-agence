@@ -1,0 +1,7 @@
+<ifModule mod_expires.c>
+ExpiresActive On
+ExpiresDefault "access plus 1 years"
+ExpiresByType style/css "access plus 2 weeks"
+ExpiresByType index/html "access plus 2 weeks"
+ExpiresByType contact/html "access plus 2 weeks"
+<ifModule>
