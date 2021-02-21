@@ -833,7 +833,11 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-
+.navbar-collapse { 
+    display: flex;
+justify-content: flex-end;
+margin-top: -80px;
+}
     .btn-atomic-tangerine {
         width: 50%;
     }
@@ -999,6 +1003,15 @@ object-fit: cover;
         margin-bottom:5px;
     }
 
+}
+@media screen and (max-width:400px) {
+    .navbar-nav {
+        margin-left: -35px;
+    }
+
+    .navbar-nav > li {
+        font-size: 14px;
+    }
 }
 
 
