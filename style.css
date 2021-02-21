@@ -14,6 +14,13 @@ padding-top: 10px;
     width: 80%;
 }
 
+.navbar-nav {
+        display: flex;
+        width: 20%;
+        justify-content: space-between;
+        margin: 8px;
+}
+
 .navbar-header {
     margin-left: 80px;
 }
@@ -783,6 +790,7 @@ h4 {
 .bg-banniere {
     background-image: url("img/la-chouette-agence.jpg");
     background-repeat: no-repeat;
+    background-size: 100% !important;
 }
 
 .bg-presentation {
@@ -869,6 +877,7 @@ h4 {
         width: 100%;
     }
 
+
     div.col-sm-6 {
         
 margin-bottom: 50px;
@@ -925,16 +934,7 @@ object-fit: cover;
         left: -1px;
         right: -1px;
     }
-    .navbar-collapse {
-        padding: 0;
-        overflow-x: hidden;
-        -webkit-box-shadow: none;
-        box-shadow: none;
-        display: flex !important;
-        justify-content: end;
-        margin-top: -75px;
-    }
-
+   
     header {
         height: 100px;
     }
@@ -1017,5 +1017,21 @@ object-fit: cover;
     .bloc-mob-center-text {
         text-align: center;
     }
+
+    .special-dropdown-nav {
+        padding: 0;
+        overflow-x: hidden;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        display: flex !important;
+        margin-top: -75px;
+        margin-right: 0px;
+    }
+    .navbar-nav {
+        margin-right: 0px;
+        margin-bottom:5px;
+    }
+
 }
+
 
