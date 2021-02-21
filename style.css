@@ -3,7 +3,15 @@
     font-size:1px;
 }
 
-
+img {
+    object-fit: cover;
+}
+#bloc-6 {
+    background-image:url(img/image-de-presentation.png);
+    background-repeat: no-repeat;
+background-size: 100%;
+height: 250px;
+}
 
 div.localisation {
 text-align: center;
@@ -59,6 +67,9 @@ margin: 40px;
 
 #form_1 > div {
     margin-bottom: 20px;
+    display: flex;
+flex-direction: column;
+width: 40%;
 }
 
 .text-fin {
@@ -100,13 +111,18 @@ a:hover {
     width: 100%;
 }
 
-
+img.navbar-brand-logo {
+    width: 250px;
+}
 .bloc-md {
     padding: 50px;
 }
 
 .bloc-sm {
     padding: 20px 50px;
+}
+.page-contact {
+    padding: 30px;
 }
 
 .bloc-bg-texture::before {
@@ -741,10 +757,6 @@ h4 {
     text-decoration: underline!important;
 }
 
-.tc-white {
-    color: white!important;
-}
-
 .l-bloque {
     margin-left: 80px;
 }
@@ -821,6 +833,13 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
+
+    .btn-atomic-tangerine {
+        width: 50%;
+    }
+    #form_1 > div {
+        width:90%;
+    }
     h1,
     h2,
     h3,
@@ -845,16 +864,6 @@ h4 {
         margin-left:0px;
     }
     }
-
-
-    div.col-sm-6 {
-        
-margin-bottom: 50px;
-    }
-
-.btn-atomic-tangerine {
-    width: 50%;
-}
 
     div.col-sm-6 > a {
         width: 100%;
@@ -966,15 +975,13 @@ object-fit: cover;
     }
 }
 
-@media (max-width: 389px) {
- .nav > li {
-     font-size: 13px;
- }
-}
-
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+
+    .hero-bloc-text {
+        font-size: 30px;
     }
 
     .special-dropdown-nav {
@@ -992,6 +999,17 @@ object-fit: cover;
         margin-bottom:5px;
     }
 
+}
+
+
+@media screen and (max-width:980px){
+    #bloc-6 {
+        background-size: auto;
+    }
+
+    img.navbar-brand-logo {
+        margin: auto;
+    }
 }
 
 
