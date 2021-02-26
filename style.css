@@ -1019,6 +1019,15 @@ object-fit: cover;
         text-align: center;
     }
 
+    #form_1 > div {
+        width: 100%;
+    }
+
+    #form_1 {
+        margin: 40px auto;
+        width: 80%;
+    }
+
     .hero-bloc-text {
         font-size: 30px;
     }
@@ -1073,14 +1082,7 @@ object-fit: cover;
         width:60%;
     }
 
-    #form_1 > div {
-        width: 100%;
-    }
-
-    #form_1 {
-        margin: 40px auto;
-        width: 80%;
-    }
+   
 }
 
 
