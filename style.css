@@ -3,6 +3,32 @@
     font-size:1px;
 }
 
+.menu1 {
+    position: absolute;
+    right: 20px;
+    margin-top: 13px;
+    font-size: 17px; 
+}
+
+.menu1:hover {
+    border-bottom:4px solid  #f0b397;
+    padding:5px;
+}
+
+.parag {
+    font-size: 16px;
+font-style: italic;
+}
+
+a {
+    text-decoration: none;
+}
+.paragraphe-un {
+    font-style: italic;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
 .bloc-lg {
     text-align: center;
 }
@@ -735,8 +761,8 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
-    width: 30%;
+    color: #0a0707!important;
+    width: 40%;
 }
 
 .btn-atomic-tangerine:hover {
@@ -768,8 +794,7 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% !important;
+    background-repeat: no-repeat;    
 }
 
 .bg-presentation {
@@ -789,9 +814,6 @@ h4 {
         position: relative;
     }
 
-    .bg-banniere {
-        background-size: auto !important;
-    }
 
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
@@ -810,9 +832,7 @@ h4 {
 justify-content: flex-end;
 margin-top: -80px;
 }
-    .btn-atomic-tangerine {
-        width: 50%;
-    }
+   
     #form_1 > div {
         width:90%;
     }
@@ -970,10 +990,29 @@ object-fit: cover;
         justify-content: flex-end;
     }
     .navbar-nav {
-        margin-right: 0px;
-        margin-bottom:5px;
+       display: none;
     }
 
+    .menu {
+        position: relative;
+        left: -20px;
+        margin-top: 35px;
+        font-size: 25px;
+        cursor: pointer;
+        border: 0px;
+        background-color: white;
+    }
+
+    .menu:hover .ul.site-navigation.nav.navbar-nav {
+        display: flex;
+        visibility: visible;
+    }
+}
+@media screen and (min-width:768px) {
+    .menu {
+        display: none;
+        visibility:hidden;
+    }
 }
 @media screen and (max-width:400px) {
     .navbar-nav {
@@ -985,7 +1024,7 @@ object-fit: cover;
     }
 
     .btn {
-        width:70%;
+        width:60%;
     }
 }
 
@@ -999,5 +1038,9 @@ object-fit: cover;
         margin: auto;
     }
 }
-
-
+   
+@media screen and (min-width:1300px) { 
+.bg-banniere {
+        background-size: 100%;
+    }
+}
