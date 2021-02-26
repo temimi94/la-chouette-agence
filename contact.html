@@ -3,11 +3,18 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="chouette, agence, agence à lyon , design, agence web lyon">
-    <meta name="description" content="La chouette agence est une agence de web design situé à Lyon qui aide les entreprises à devenir attractives et visibles sur Internet.
+    <meta name="description" 
+	content="La chouette agence est une agence de web design situé à Lyon qui aide les entreprises à devenir attractives et visibles sur Internet.
 	Que vous ayez un site web qui a besoin d'un rafraîchissement ou que vous partiez de zéro, laissez-nous vous réaliser un design dont vous serez fier.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
+	<meta property="og:title" content="la-chouette-agence" />
+    <meta property="og:type" content="siteweb" />
+    <meta property="og:image" content="https://temimi94.github.io/projet4/" />
+    <meta property="og:url" content="https://temimi94.github.io/projet4/" />
+	
+	
+	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
@@ -80,7 +87,7 @@
 						<label for="msg">Brief de votre projet (Ajoutez autant de détails que nécessaire) :</label>
                         <textarea id="msg" name="user_message"></textarea>
 					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" id="envoyer" type="submit">
 						Envoyer
 					</button>
 				</form>
@@ -88,15 +95,38 @@
 
 <!--FOOTER-->
 
-<footer class="col-sm-6 localisation">
-	<p>
-		contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
-	</p>
-	<div class="reseau">
-		<a class="social" href=""><span class="fa fa-facebook icon-md" title="contact par facebook"></span></a>
-		<a class="social" href=""><span class="fa fa-dribbble icon-md" title="contact par "></span></a>
-		<a class="social" href=""><span class="fa fa-instagram icon-md" title="contact par instagram"></span></a>
-	</div>			
+<footer id="bas-page" class="col-sm-6 localisation">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col-sm-12">
+				<p id="paragraphe-footer" class="text-center white">
+					La chouette agence - Agence web basée à Lyon.<br>
+				</p>
+				<div class="row row-no-gutters social">
+					<div class="col-sm-3">
+						<div class="text-center">
+							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="text-center">
+							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="text-center">
+							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="text-center">
+							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </footer>
 
 <!--END FOOTER-->
