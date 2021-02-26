@@ -1047,8 +1047,10 @@ object-fit: cover;
         background-color: white;
     }
 
-    .menu:hover .ul.site-navigation.nav.navbar-nav {
+    .menu:focus > 
+    ul::before{
         display: flex;
+        justify-content: start;
         visibility: visible;
     }
 }
