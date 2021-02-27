@@ -10,11 +10,6 @@ a:hover{
     background-color: white !important;
 }
 
-.navbar-brand-logo {
-    width: 40%;
-    height: 40px;
-}
-
 #parag {
     font-size: 18px;
 }
@@ -23,8 +18,6 @@ a:hover{
     height: 400px;
     margin: 40px;
     width:50%;
-    padding: 20px;
-    border-radius: 20px;
 }
 
 #form_1 > div {
@@ -66,6 +59,12 @@ input:focus, textarea:focus {
     object-fit:cover;
 }
 
+.navbar-brand-logo {
+    width: 250px;
+}
+
+
+
 .keywords {
     color:#ccc;
     font-size:1px;
@@ -98,7 +97,6 @@ a{
 #bloc-6 {
     background-image:url(https://temimi94.github.io/projet4/img/image-de-presentation.jpg);
     background-repeat:no-repeat;
-    background-size:100%;
     height:250px;
 }
    
@@ -153,10 +151,6 @@ a:hover {
 
 .bloc {
     width:100%;
-}
-
-img.navbar-brand-logo {
-    width:250px;
 }
 
 .bloc-md {
@@ -675,8 +669,16 @@ ul::before {
     margin-left:-35px;
 }
 
-img.navbar-brand-logo {
-    width: 200px;
+.menu1 {
+    margin-top:8px;
+}
+
+.navbar-brand-logo {
+    width: 180px;
+}
+
+.hero-bloc-text {
+    font-size: 25px;
 }
 
 header {
@@ -694,7 +696,7 @@ li {
 
 @media screen and (max-width:980px) {
 #bloc-6 {
-    background-size:auto;
+ background-size:auto !important;
 }
 
 img.navbar-brand-logo {
@@ -703,5 +705,9 @@ img.navbar-brand-logo {
 }
 
 @media screen and (min-width:1300px) {
-.bg-banniere {background-size:100%;}
+.bg-banniere, #bloc-6 {
+    background-size:100%;
+}
+
+
 }
