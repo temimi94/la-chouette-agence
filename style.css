@@ -6,6 +6,10 @@
     font-display:swap;
 }
 
+a:hover{
+    background-color: white !important;
+}
+
 #parag {
     font-size: 18px;
 }
@@ -13,13 +17,41 @@
 #form_1 {
     height: 400px;
     margin: 40px;
-    width:40%;
+    width:50%;
+    background-color: #f3976c;
+    padding: 20px;
+    border-radius: 20px;
 }
 
 #form_1 > div {
     margin: 20px;
     display: flex;
     flex-direction: column;
+    padding: 5px; 
+}
+
+label {
+    padding-bottom: 5px;
+    font-weight: bold; 
+}
+
+input, textarea {
+    border-radius: 5px;
+    padding: 3px;
+}
+
+#envoyer {
+    margin-top: -5px;
+margin-left: 25px;
+background-color: white;
+border: 0px;
+border-radius: 20px;
+}
+
+input:focus, textarea:focus {
+    color:#f3976c;
+    font-weight: bold;
+    box-shadow: 4px 4px 8px #f2f2f2;
 }
  
  img {
@@ -40,8 +72,7 @@
 }
 
 .menu1:hover {
-    border-bottom:4px solid #f0b397;
-    padding:5px;
+    border-bottom:2px solid #f0b397;
 }
 
 a{
@@ -123,7 +154,7 @@ img.navbar-brand-logo {
 }
 
 .bloc-md {
-    padding:50px;
+    padding: 20px 10px;
 }
 
 .bloc-sm {
@@ -263,8 +294,8 @@ li,.nav-center .navbar-brand,.nav-center .navbar-header {
 }
 
 .mg-md {
-    margin-top:10px;
-    margin-bottom:20px;
+    margin-bottom: 20px;
+    color: black!important;
 }
 
 .mg-lg {
@@ -378,7 +409,6 @@ p {
 }
 
 .cta-hero {
-    margin-top:22px;
     color:#fff!important;
     text-transform:uppercase;
     padding:12px 28px 12px 28px;
@@ -580,10 +610,6 @@ header {
     margin-top:20px;
 }
 
-.voffset-lg {
-    margin-top:30px;
-}
-
 @media (max-width:767px) {
 .hero-bloc-text {
     font-size:30px;
@@ -600,6 +626,12 @@ header {
     justify-content:flex-end;
 }
 
+#form_1 {
+    width: 85%;
+    height: 450px;
+    margin: 30px 10px;
+}
+
 .navbar-nav { 
   display:none;
 }
@@ -612,6 +644,10 @@ header {
     cursor:pointer;
     border:0;
     background-color:#fff;
+}
+
+.menu1 {
+    left: 80%; 
 }
 
 ul::before {
@@ -631,6 +667,14 @@ ul::before {
 @media screen and (max-width:400px) {
 .navbar-nav {
     margin-left:-35px;
+}
+
+img.navbar-brand-logo {
+    width: 200px;
+}
+
+header {
+    height: 90px;
 }
 
 li {
