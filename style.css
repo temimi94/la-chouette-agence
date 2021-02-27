@@ -6,7 +6,11 @@
     font-display: swap;
   }
 
-  
+  img {
+    width: auto;
+    height: auto;
+  }
+
 .keywords {
     color:#cccccc;
     font-size:1px;
