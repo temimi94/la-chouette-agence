@@ -6,6 +6,10 @@
     font-display:swap;
 }
 
+img.image-resize-mode {
+    background-color: transparent;
+}
+
 a:hover{
     background-color: white !important;
 }
@@ -493,7 +497,7 @@ h4 {
 }
 
 .bg-banniere {
-    background-image:url(https://temimi94.github.io/projet4/img/la-chouette-agence-banniere.jpg);
+    background-image:url(img/la-chouette-agence-banniere.jpeg);
     background-repeat:no-repeat;
 }
 
