@@ -51,9 +51,10 @@ border: 2px solid black;
 }
 
 input:focus, textarea:focus {
-    color:#f3976c;
+    color:black;
     font-weight: bold;
     box-shadow: 4px 4px 8px #f2f2f2;
+    background-color: #c27956;
 }
  
  img {
@@ -75,12 +76,12 @@ input:focus, textarea:focus {
 .menu1 {
     position:absolute;
    left:90%;
-    margin-top:13px;
+    margin-top:18px;
     font-size:17px;
 }
 
 .menu1:hover {
-    border-bottom:2px solid #f0b397;
+    border-bottom:4px solid #f0b397;
 }
 
 a{
@@ -194,7 +195,6 @@ a:hover {
 
 .navbar {
     margin-bottom:0;
-    z-index:1;
 }
 
 .navbar-brand {
@@ -440,10 +440,6 @@ h3 {
     box-shadow:0 0 0 #000;
 }
 
-h1 {
-    color:#333!important;
-}
-
 h4 {
     color:#333!important;
 }
@@ -475,8 +471,12 @@ h4 {
 .btn-atomic-tangerine {
     background:#f3976c;
     color:#0a0707!important;
-    width:40%;
+    width:auto;
     height: 45px;
+}
+
+footer > p {
+    font-weight: bold;
 }
 
 .btn-atomic-tangerine:hover {
