@@ -74,12 +74,17 @@ input:focus, textarea:focus {
 .menu1 {
     position:absolute;
    left:90%;
-    margin-top:18px;
+    margin-top:10px;
     font-size:17px;
 }
 
 .menu1:hover {
-    border-bottom:4px solid #f0b397;
+    border-bottom:2px solid #f0b397;
+    background-color: #eee;
+}
+
+.menu1 {
+ padding: 10px;
 }
 
 a{
@@ -147,7 +152,6 @@ a {
 
 a:hover {
     text-decoration:none;
-    cursor:pointer;
 }
 
 .bloc {
