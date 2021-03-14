@@ -13,7 +13,6 @@
 }
 
 .navbar-toggle {
-    display: none;
     visibility: hidden;
 }
 
@@ -39,6 +38,10 @@ input, textarea {
     border-radius: 5px;
     padding: 3px;
     border: 2px solid black;
+}
+
+header {
+    height: 100px;
 }
 
 #envoyer {
@@ -253,6 +256,7 @@ li:hover {
 li .dropdown-menu a:hover {
     color:#484848;
 }
+
 
 .nav-center {
     text-align:center;
@@ -525,6 +529,10 @@ footer > p {
     position:relative;
 }
 
+.navbar-toggle {
+    visibility: hidden;
+}
+
 .navbar-collapse {
     display:flex;
     justify-content:flex-end;
@@ -583,9 +591,6 @@ img.img-responsive.portfolio-thumb {
     right:-1px;
 }
 
-header {
-    height:100px;
-}
 
 .navbar-brand img {
     max-height:40px;
@@ -616,6 +621,15 @@ header {
 @media (max-width:767px) {
 .hero-bloc-text {
     font-size:30px;
+}
+
+.navbar-nav {
+    background-color: #c27956;
+}
+
+li:hover {
+    background-color: white;
+    padding:8px;
 }
 
 .navbar-collapse {
@@ -652,10 +666,6 @@ header {
     width: 85%;
     height: 450px;
     margin: 30px 10px;
-}
-
-.navbar-nav { 
-  display:none;
 }
 
 .menu {
@@ -764,4 +774,3 @@ a, button {
 .navbar-toggle:hover {
     background: transparent !important;
 }
-
